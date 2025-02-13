@@ -15,7 +15,7 @@ def main():
     while True:
         '''
         prompts the user to enter the temperature
-        if the temperature is not either an integer or a float, the user is prompted to enter the temperature until they get it right.
+        if the temperature is not either an integer or a float, the user is prompted to enter the temperature until they enter the correct data type.
         '''
         try:
             temperature = float(input('Please enter the temperature: '))
